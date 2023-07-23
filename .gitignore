@@ -475,5 +475,12 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+
+# Ignore settings file with secrets
 API/appsettings.json
+
+# Don't store dynamic dev DB
 API/datingapp.db
+
+# Don't store ssl certs
+client/ssl/**
